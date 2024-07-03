@@ -17,3 +17,6 @@ class Airport:
 
     def __hash__(self):
         return hash(self.ID)
+
+    def __repr__(self):
+        return f"{self.AIRPORT}"
